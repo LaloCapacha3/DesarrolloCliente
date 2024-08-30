@@ -1,0 +1,22 @@
+@media (min-width: $small) {
+    body {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: $medium) {
+    body {
+      font-size: 1.125rem;
+    }
+  
+    header, footer {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: $large) {
+    body {
+      font-size: 1.25rem;
+    }
+  }
+  

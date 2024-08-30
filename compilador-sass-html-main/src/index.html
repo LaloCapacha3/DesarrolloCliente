@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="header-title"></h1>
+        <p id="header-author"></p>
+    </header>
+
+    <section id="perfil">
+        <h2>Perfil</h2>
+        <p id="perfil-description"></p>
+        <img id="perfil-image" src="images/FotoPerfil.jpg" alt="Imagen de perfil">
+    </section>
+
+    <section id="educacion">
+        <h2>Experiencia en Educación</h2>
+        <div id="educacion-list"></div>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <div id="experiencia-list"></div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div id="proyectos-list"></div>
+    </section>
+
+    <section id="tecnologias">
+        <h2>Tecnologías</h2>
+        <ul id="tecnologias-list"></ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul id="habilidades-list"></ul>
+    </section>
+
+    <section id="pasatiempos">
+        <h2>Pasatiempos</h2>
+        <p id="pasatiempos-description"></p>
+    </section>
+
+    <footer id="contacto">
+        <h2>Información de Contacto</h2>
+        <ul id="contact-list"></ul>
+    </footer>
+    
+    <section id="contact-form">
+        <h2>Formulario de Contacto</h2>
+        <form id="form-contact" target="_blank" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input id="name" type="text" name="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                  <input id="email" type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+          </form>
+    </section>
+
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
