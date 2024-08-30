@@ -1,0 +1,99 @@
+{
+    "header": {
+      "title": "Currículum Vitae",
+      "author": "Jesús Eduardo Castellanos Pelayo"
+    },
+    "perfil": {
+      "description": "Hola!, estoy actualmente en el séptimo semestre de la carrera de ingeniería en desarrollo de software en el ITESO, me gustan mucho las cosas relacionadas con la tecnología y espero algún día poder trabajar en algo relacionado.",
+      "image": "images/FotoPerfil.jpg"
+    },
+    "educacion": [
+      {
+        "title": "Ingeniero en desarrollo de software",
+        "institution": "ITESO",
+        "date": "Diciembre 2025"
+      }
+    ],
+    "experiencia": [
+      {
+        "title": "Asistente en ingeniería en sistemas",
+        "company": "Despacho Castellanos",
+        "period": "Junio 2023 a Enero 2024",
+        "tasks": [
+          "Contribuí a la eficiencia de distintos sistemas de contabilidad en Excel",
+          "Actualización o descarga de programas en las computadoras del despacho"
+        ]
+      }
+    ],
+    "proyectos": [
+      {
+        "title": "Una página de venta de casas",
+        "description": "Desarrollé junto con otros alumnos una página donde pudieras registrar casas para más adelante venderlas."
+      }
+    ],
+    "tecnologias": [
+      {
+        "name": "HTML",
+        "icon": "html5.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "css3.png"
+      },
+      {
+        "name": "Python",
+        "icon": "python.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "js.png"
+      },
+      {
+        "name": "C",
+        "icon": "c.png"
+      },
+      {
+        "name": "C++",
+        "icon": "c++.png"
+      },
+      {
+        "name": "Java",
+        "icon": "java.png"
+      },
+      {
+        "name": "sql",
+        "icon": "sql.png"
+      }
+    ],
+    "habilidades": [
+      "Trabajo en equipo",
+      "Liderazgo",
+      "Responsabilidad"
+    ],
+    "pasatiempos": {
+      "description": "En mis tiempos libres me gusta jugar videojuegos, aprender de economía y criptomonedas, descubrir nuevas cosas relacionadas con tecnología."
+    },
+    "contacto": [
+      {
+        "contact": "mailto:jesus.castellanos@iteso.mx",
+        "icon": "email.png"
+      },
+      {
+        "contact": "tel:3314702255",
+        "icon": "phone.png"
+      },
+      {
+        "contact": "https://www.facebook.com/",
+        "icon": "facebook.png"
+      },
+      {
+        "contact": "https://www.instagram.com/",
+        "icon": "instagram.png"
+      },
+      {
+        "contact": "https://x.com/home",
+        "icon": "twitter.png"
+      }
+    ],
+    "formAction": "https://formsubmit.co/duskylalo35@gmail.com" 
+}

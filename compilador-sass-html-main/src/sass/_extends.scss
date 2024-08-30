@@ -1,0 +1,12 @@
+%flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  %section-title {
+    color: $primary-color;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  

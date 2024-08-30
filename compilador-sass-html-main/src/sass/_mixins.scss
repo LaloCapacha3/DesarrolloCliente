@@ -1,0 +1,12 @@
+@mixin responsive($property, $small, $medium, $large) {
+    #{$property}: $small;
+  
+    @media (min-width: $small) {
+      #{$property}: $medium;
+    }
+  
+    @media (min-width: $large) {
+      #{$property}: $large;
+    }
+  }
+  
