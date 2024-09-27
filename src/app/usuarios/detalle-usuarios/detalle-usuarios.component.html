@@ -1,0 +1,14 @@
+<div class="user-detail" *ngIf="user">
+  <div class="user-info">
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    <p><strong>Username:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Phone:</strong> {{ user.phone }}</p>
+    <p><strong>Website: </strong>{{ user.website }}</p>
+    <h3><strong>Company</strong></h3>
+    <p><strong>Name: </strong>{{ user.company.name }}</p>
+    <p><strong>CatchPhrase: </strong>{{ user.company.catchPhrase }}</p>
+    <p><strong>BS: </strong>{{ user.company.bs }}</p>
+  </div>
+  <button (click)="onClear()">Clear user</button>
+</div>

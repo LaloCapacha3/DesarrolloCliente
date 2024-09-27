@@ -1,0 +1,23 @@
+.user-detail {
+    .user-info {
+      margin-top: 15px;
+  
+      p {
+        margin: 10px 0;
+        font-size: 16px;
+      }
+    }
+  
+    button {
+      display: block;
+      padding: 15px;
+      border: black;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: darken(gray, 10%);
+      }
+    }
+  }
