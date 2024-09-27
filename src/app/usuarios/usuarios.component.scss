@@ -1,0 +1,18 @@
+.usuarios-container {
+    display: flex;
+    flex-direction: row; // Coloca los hijos en fila
+    justify-content: space-between; // Espacio entre los elementos
+    padding: 20px;
+  
+    .lista-usuarios {
+      flex: 1; // Ocupa el espacio disponible
+      margin-right: 20px; // Espacio entre lista y detalle
+      min-width: 300px; // Ancho mínimo para la lista
+    }
+  
+    .detalle-usuarios {
+      flex: 1; // Ocupa el espacio disponible
+      min-width: 300px; // Ancho mínimo para los detalles
+    }
+  }
+  

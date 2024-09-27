@@ -1,0 +1,9 @@
+<div class="usuarios-container">
+    <div class="lista-usuarios">
+      <app-lista-usuarios (userSelected)="onUserSelected($event)"></app-lista-usuarios>
+    </div>
+    <div class="detalle-usuarios">
+      <app-detalle-usuarios [user]="selectedUser" (clearUser)="onClearUser()"></app-detalle-usuarios>
+    </div>
+  </div>
+  
